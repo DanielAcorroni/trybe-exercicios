@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Html
+Html Semântico
+Css
+Java Script
+Redux

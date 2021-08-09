@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+      <p class="random-paragraph">Parágrafo random!</p>
+      <p class="random-paragraph">Parágrafo random!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.getElementById("page-title").innerText = "Velozes e Furiosos: Desafio em Tóquio"
+      document.getElementById("second-paragraph").innerText = "Sean Boswell é um piloto de rua que desafia seu rival e bate o carro no fim da corrida. Então, Sean decide se mudar para o Japão em companhia de seu pai para evitar a prisão nos Estados Unidos, já que os rachas não são nada populares com as autoridades. Em Tóquio, ele começa a aprender um excitante e perigoso estilo novo de competir nas ruas. Só que os riscos ficam ainda mais altos quando Sean decide competir com o campeão local e acaba se apaixonando pela namorada dele."
+      document.getElementById("subtitle").innerText = "O mais odiado filme da franquia de carros internacionalmente famosa"
+      document.getElementsByClassName("random-paragraph")[0].innerText = "Durante as filmagens, mais de 100 carros foram destruídos e cerca de 2 mil pneus foram utilizados. As cenas foram rodadas na Califórnia e no Japão."
+      document.getElementsByClassName("random-paragraph")[1].innerText = "“Velozes e Furiosos: Desafio em Tóquio” é um filme que em nenhum momento esconde suas raízes “caça-níqueis” e agrada apenas a quem realmente curte o gênero ação com carros exuberantes. Se mantém no mesmo nível dos dois filmes anteriores, e certamente não irá decepcionar aos fãs da franquia. Agora, se procuram por criatividade e têm pena de gastar o precioso valor do ingresso, sugiro que fiquem em casa e joguem uma partida de “Need For Speed Underground”. Garanto-lhes que a satisfação será bem maior!"
+      const subtitle = document.getElementsByTagName("h4")[0];
+      subtitle.style.color = "grey"
+    </script>
+  </body>
+</html>

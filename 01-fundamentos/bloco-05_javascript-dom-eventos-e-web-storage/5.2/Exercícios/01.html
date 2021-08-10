@@ -105,6 +105,7 @@
           let unityNumber = number;
           let li = document.createElement("li");
           li.innerText = number;
+          li.className = "numbers-list";
           ul.append(li);
       }
       //09
@@ -122,7 +123,33 @@
 
       //Parte II
       //01
+      title.className = "title";
 
+      //02
+      subtitle.className = "description";
+      subtitle1.className = "description";
+      subtitle2.className = "description";
+
+      //03
+      main.removeChild(section1);
+
+      //04
+      document.querySelector(".right-content").style.margin = "auto";
+
+      //05
+      document.querySelector(".center-content").style.backgroundColor = "green";
+
+      //06
+      let numberListing = document.querySelectorAll(".numbers-list");
+       for (let compare of numberListing) {
+           if (compare.innerText.includes("nove")) {
+               ul.removeChild(compare);
+           }
+
+           if (compare.innerText.includes("dez")) {
+               ul.removeChild(compare);
+           }
+       }
     </script>
   </body>
 </html>

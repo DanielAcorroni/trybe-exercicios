@@ -22,61 +22,61 @@
                 //01
                 document.querySelector("#primeiroFilhoDoFilho").parentNode;
                 //02
-                document.querySelector("#elementoOndeVoceEsta").parentElement.style.color = "green"
+                document.querySelector("#elementoOndeVoceEsta").parentElement.style.color = "green";
                 //03
-                document.querySelector("#primeiroFilhoDoFilho").innerText = "Filho do primo do tio do meu irmão"
+                document.querySelector("#primeiroFilhoDoFilho").innerText = "Filho do primo do tio do meu irmão";
                 //04
-                document.querySelector("#pai").firstElementChild
+                document.querySelector("#pai").firstElementChild;
                 //05
-                document.querySelector("#elementoOndeVoceEsta").previousElementSibling
+                document.querySelector("#elementoOndeVoceEsta").previousElementSibling;
                 //06
-                document.querySelector("#elementoOndeVoceEsta").nextSibling
+                document.querySelector("#elementoOndeVoceEsta").nextSibling;
                 //07
-                document.querySelector("#elementoOndeVoceEsta").nextElementSibling
+                document.querySelector("#elementoOndeVoceEsta").nextElementSibling;
                 //08
-                document.querySelector("#pai").lastElementChild.previousElementSibling
+                document.querySelector("#pai").lastElementChild.previousElementSibling;
 
                 //Parte II
                 //01
-                let irmaoDoElemento = document.createElement("p")
-                irmaoDoElemento.innerText = "Irmao do tio da minha avó"
-                irmaoDoElemento.className = "irmaoDoElemento"
+                let irmaoDoElemento = document.createElement("p");
+                irmaoDoElemento.innerText = "Irmao do tio da minha avó";
+                irmaoDoElemento.className = "irmaoDoElemento";
 
-                let elementoOndeVoceEsta = document.querySelector("#elementoOndeVoceEsta")
+                let elementoOndeVoceEsta = document.querySelector("#elementoOndeVoceEsta");
 
-                elementoOndeVoceEsta.insertAdjacentElement("beforebegin", irmaoDoElemento)
+                elementoOndeVoceEsta.insertAdjacentElement("beforebegin", irmaoDoElemento);
                 //02
-                let filhoDoElemento = document.createElement("li")
-                filhoDoElemento.innerText = "Neto do avó da irmã de claudia"
-                filhoDoElemento.className = "filhoDoElemento"
+                let filhoDoElemento = document.createElement("li");
+                filhoDoElemento.innerText = "Neto do avó da irmã de claudia";
+                filhoDoElemento.className = "filhoDoElemento";
 
                 elementoOndeVoceEsta.appendChild(filhoDoElemento);
                 //03
-                let primeiroFilhoDoFilho = document.querySelector("#primeiroFilhoDoFilho")
+                let primeiroFilhoDoFilho = document.querySelector("#primeiroFilhoDoFilho");
 
-                let filhoDoFilhoDoFilho = document.createElement("h2")
-                filhoDoFilhoDoFilho.innerText = "Filho do primeiro filho do filho de gerson"
+                let filhoDoFilhoDoFilho = document.createElement("h2");
+                filhoDoFilhoDoFilho.innerText = "Filho do primeiro filho do filho de gerson";
 
-                primeiroFilhoDoFilho.appendChild(filhoDoFilhoDoFilho)
+                primeiroFilhoDoFilho.appendChild(filhoDoFilhoDoFilho);
                 //04
-                filhoDoFilhoDoFilho.className = "filhoDoFilhoDoFilho"
-                document.querySelector(".filhoDoFilhoDoFilho").parentElement.parentElement.nextElementSibling
+                filhoDoFilhoDoFilho.className = "filhoDoFilhoDoFilho";
+                document.querySelector(".filhoDoFilhoDoFilho").parentElement.parentElement.nextElementSibling;
 
                 //Parte III
                 //01
-                let primeiroFilho = document.querySelector("#primeiroFilho")
-                let terceiroFilho = document.querySelector("#terceiroFilho")
-                let quartoEUltimoFilho = document.querySelector("#quartoEUltimoFilho")
-                let segundoEUltimoFilhoDoFilho = document.querySelector("#segundoEUltimoFilhoDoFilho")
-                let pai = document.querySelector("#pai")
+                let primeiroFilho = document.querySelector("#primeiroFilho");
+                let terceiroFilho = document.querySelector("#terceiroFilho");
+                let quartoEUltimoFilho = document.querySelector("#quartoEUltimoFilho");
+                let segundoEUltimoFilhoDoFilho = document.querySelector("#segundoEUltimoFilhoDoFilho");
+                let pai = document.querySelector("#pai");
 
                 pai.removeChild(primeiroFilho);
-                pai.removeChild(terceiroFilho)
-                pai.removeChild(quartoEUltimoFilho)
-                pai.removeChild(irmaoDoElemento)
-                elementoOndeVoceEsta.removeChild(segundoEUltimoFilhoDoFilho)
-                elementoOndeVoceEsta.removeChild(filhoDoElemento)
-                primeiroFilhoDoFilho.removeChild(filhoDoFilhoDoFilho)
+                pai.removeChild(terceiroFilho);
+                pai.removeChild(quartoEUltimoFilho);
+                pai.removeChild(irmaoDoElemento);
+                elementoOndeVoceEsta.removeChild(segundoEUltimoFilhoDoFilho);
+                elementoOndeVoceEsta.removeChild(filhoDoElemento);
+                primeiroFilhoDoFilho.removeChild(filhoDoFilhoDoFilho);
 
             </script>
         </main>

@@ -43,22 +43,38 @@
     </main>
     <script>
         //01
-        document.getElementsByTagName("p")[0].innerText = "Quero ser um dos grandes nomes na área de pesquisa de inteligência artificial.";
+        function changeTextByTag(tag, text) {
+          document.getElementsByTagName(tag)[0].innerText = text;
+        }
+
+        changeTextByTag("p", "Quero ser um dos grandes nomes na área de pesquisa de inteligência artificial.");
 
         //02
-        document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(" + 76 + "," + 164 + "," + 109 + ")";
+        function changeBackgroundColorByClass(classItem, color) {
+          document.getElementsByClassName(classItem)[0].style.backgroundColor = color;
+        }
+
+        changeBackgroundColorByClass("main-content", "rgb(" + 76 + "," + 164 + "," + 109 + ")");
 
         //03
-        document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
+        changeBackgroundColorByClass("center-content", "white");
 
         //04
-        document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript";
+        changeTextByTag("h1", "Exercício 5.1 - JavaScript");
 
         //05
-        document.getElementsByTagName("section")[0].style.textTransform = "uppercase";
+        function textTransformByTag(tag, textTransformation) {
+          document.getElementsByTagName(tag)[0].style.textTransform = textTransformation;
+        }
+
+        textTransformByTag("section", "uppercase");
 
         //06
-        console.log(document.getElementsByTagName("section")[0].innerText);
+        function consoleByTag(tag, content) {
+          console.log(document.getElementsByTagName(tag)[0].content);
+        }
+
+        consoleByTag("section", innerText);
     </script>
   </body>
 </html>

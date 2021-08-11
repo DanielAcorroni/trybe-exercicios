@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      //Parte I
+      //01
+      let title = document.createElement("h1");
+      title.innerText = "Exercício 5.2 - JavaScript DOM";
+
+      document.body.appendChild(title);
+      //02
+      let main = document.createElement("main");
+      main.className = "main-content";
+
+      document.body.appendChild(main);
+      //03
+      let section = document.createElement("section");
+      section.className = "center-content";
+
+      main.appendChild(section);
+      //04
+      let p = document.createElement("p");
+      p.innerText = "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum";
+
+      section.appendChild(p)
+      //05
+      let section1 = document.createElement("section");
+      section1.className = "left-content";
+
+      main.appendChild(section1);
+      //06
+      let section2 = document.createElement("section");
+      section2.className = "right-content";
+
+      main.appendChild(section2);
+      //07
+      let img = document.createElement("img");
+      img.src = "https://picsum.photos/200";
+      img.className = "small-image";
+
+      section1.appendChild(img);
+      //08
+      let ul = document.createElement("ul");
+
+      section2.appendChild(ul);
+
+      let numbers = ["um","dois","três","quatro","cinco","seis","sete","oito","nove","dez"];
+
+      for (let number of numbers) {
+          let unityNumber = number;
+          let li = document.createElement("li");
+          li.innerText = number;
+          li.className = "numbers-list";
+          ul.append(li);
+      }
+      //09
+      let subtitle = document.createElement("h3");
+
+      main.appendChild(subtitle);
+
+      let subtitle1 = document.createElement("h3");
+
+      main.appendChild(subtitle1);
+
+      let subtitle2 = document.createElement("h3");
+
+      main.appendChild(subtitle2);
+
+      //Parte II
+      //01
+      title.className = "title";
+
+      //02
+      subtitle.className = "description";
+      subtitle1.className = "description";
+      subtitle2.className = "description";
+
+      //03
+      main.removeChild(section1);
+
+      //04
+      document.querySelector(".right-content").style.margin = "auto";
+
+      //05
+      document.querySelector(".center-content").style.backgroundColor = "green";
+
+      //06
+      let numberListing = document.querySelectorAll(".numbers-list");
+       for (let compare of numberListing) {
+           if (compare.innerText.includes("nove")) {
+               ul.removeChild(compare);
+           }
+
+           if (compare.innerText.includes("dez")) {
+               ul.removeChild(compare);
+           }
+       }
+    </script>
+  </body>
+</html>

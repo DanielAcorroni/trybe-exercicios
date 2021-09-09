@@ -1,0 +1,16 @@
+1 - Pensar no estilo da festa
+2 - Pensar em roupar que combinem com o estilo
+3 - Abrir o guarda roupa
+4 - Achar as roupas desejadas
+5 - Retirar as roupas desejadas
+6 - Fechar o guarda roupa
+7 - Fechar a porta do quarto
+8 - Experimentar a roupa
+9 - Se olhar no espeho
+10 - Decidir se gostou ou não da roupa, se não, volta ao passo 2
+11 - Tirar a roupa
+12 - Guardar a roupa para usar na festa
+13 - chegando na hora da festa, tomar um banho
+14 - Vestir a roupa
+15 - Se perfumar e arrumar
+16 - Ir a festa

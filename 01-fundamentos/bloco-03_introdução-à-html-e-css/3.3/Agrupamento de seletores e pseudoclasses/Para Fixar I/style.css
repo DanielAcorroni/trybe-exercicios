@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: aquamarine;
+}
+
+li:active {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.list {
+    list-style: none;
+}

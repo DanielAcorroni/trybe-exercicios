@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: seagreen;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+button {
+    width: 100px;
+    line-height: 20px;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+table {
+    text-align: center;
+}
+
+article {
+    margin: 10px
+}
+
+aside {
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+}
+
+#tabela02 {
+    width: 347px;
+}
+
+#cute-stomatopoda {
+    float: left;
+    border: transparent thin solid;
+    padding: 5px;
+}
+
+.header02 {
+    display: inline-block;
+}
+
+.navegacao {
+    line-height: 20px;
+    list-style: none;
+}

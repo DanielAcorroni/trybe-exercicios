@@ -1,0 +1,81 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+main {
+    text-align: center;
+    color: green;
+}
+
+fieldset {
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid rgb(182, 179, 179);
+    background-color: whitesmoke;
+}
+
+input {
+    margin: 10px;
+    width: 98%;
+}
+
+input[type= "radio"] {
+    width: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type= "date"] {
+    cursor: text;
+}
+
+select {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+textarea {
+    width: 98%;
+}
+
+#send {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 0px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+}
+
+#send:hover {
+    background: rgb(1, 105, 1);
+    cursor: pointer;
+}
+
+#form-result {
+    margin: auto;
+    display: block;
+    border: 1px solid rgb(182, 179, 179);
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#erase {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#erase:hover {
+    background-color: rgb(161, 0, 0);
+    cursor: pointer;
+}

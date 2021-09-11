@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms de currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Formulário de currículo</h1>
+    </main>
+
+    <form method="GET">
+        <fieldset>
+            <label for="username">Nome: 
+                <input type="text" name="username" id="username" maxlength="40" required>
+            </label>
+            <label for="user-email">Email: 
+                <input type="email" name="user-email" id="user-email" maxlength="50" required>
+            </label>
+            <label for="user-cpf">CPF: 
+                <input type="text" name="user-cpf" id="user-cpf" maxlength="11" required>
+            </label>
+            <label for="adress">Endereço: 
+                <input type="text" name="adress" id="adress" maxlength="200" required>
+            </label>
+            <label for="city">Cidade: 
+                <input type="text" name="city" id="city" maxlength="28" required>
+            </label>
+            <label for="state">Estado: 
+                <select name="state" id="state-select" required>
+                </select>
+            </label>
+            <label for="habitation-type">Tipo: 
+                <label for="habitation-type_01">
+                    <input type="radio" name="habitation-type" id="habitation-type_01" required>Casa
+                </label>
+                <label for="habitation-type_02">
+                    <input type="radio" name="habitation-type" id="habitation-type_02" required>Apartamento
+                </label>
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <label for="curriculum">Resumo do currículo: 
+                <textarea name="curriculum" id="curriculum" cols="30" rows="10" maxlength="1000" required></textarea>
+            </label>
+            <label for="post">Cargo: 
+                <input type="text" name="post" id="post" maxlength="40" required>
+            </label>
+            <label for="post-resume">Descrição do cargo: 
+                <input type="text" name="post-resume" id="post-resume" maxlength="500" required>
+            </label>
+            <label for="beggining-day">Data de início: 
+                <input type="date" name="beggining-day" id="beggining-day" required>
+            </label>
+        </fieldset>
+        <button type="submit" id="send">Mandar currículo</button>
+        <button type="reset" id="erase">Apagar</button>
+    </form>
+
+    <section id="form-result"></section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

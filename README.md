@@ -3,7 +3,7 @@
 Este repositório contém todas as atividades realizadas por __[mim](https://www.linkedin.com/in/daniel-acorroni-19400b21b/)__ durante minha tragetória na [Trybe](https://www.betrybe.com/) :rocket:
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 #### Bloco 1: [Unix, Bash e Shell Script](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/01-fundamentos/bloco-01_unix-e-bash)
  - [X] 1.3 - Fundamentos do Desenvolvimento Web  
@@ -63,19 +63,19 @@ Este repositório contém todas as atividades realizadas por __[mim](https://www
  - [X] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort  
  - [X] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter  
  - [X] 8.4 - JavaScript ES6 - Higher Order Functions - reduce  
- - [ ] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais  
- - [ ] 8.6 - Projeto - Zoo functions
+ - [X] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais  
+ - [X] 8.6 - Projeto - Zoo functions
 
 #### Bloco 9: JavaScript Assíncrono e Promises
- - [ ] 9.1 - JavaScript Assíncrono e Callbacks  
- - [ ] 9.2 - JavaScript Promises  
- - [ ] 9.3 - Projeto - Carrinho de Compras
+ - [X] 9.1 - JavaScript Assíncrono e Callbacks  
+ - [X] 9.2 - JavaScript Promises  
+ - [X] 9.3 - Projeto - Carrinho de Compras
 
 #### Bloco 10: Testes automatizados com Jest
- - [ ] 10.1 - Primeiros passos no Jest  
- - [ ] 10.2 - Jest - Testes Assíncronos  
- - [ ] 10.3 - Jest - Simulando comportamentos  
- - [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+ - [X] 10.1 - Primeiros passos no Jest  
+ - [X] 10.2 - Jest - Testes Assíncronos  
+ - [X] 10.3 - Jest - Simulando comportamentos  
+ - [X] 10.4 - Projeto - Jest Assíncrono e Mocking
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 #### Bloco 11: Introdução à React

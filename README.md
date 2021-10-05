@@ -53,13 +53,13 @@ Este repositório contém todas as atividades realizadas por __[mim](https://www
  - [X] 6.5 - CSS Responsivo - Mobile First  
  - [X] 6.6 - Projeto - Trybewarts
  
-#### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+#### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/01-fundamentos/bloco-07_introdu%C3%A7%C3%A3o-%C3%A0-javascript-es6-e-testes-unit%C3%A1rios)
  - [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals  
  - [X] 7.2 - JavaScript ES6 - Objects  
  - [X] 7.3 - Testes unitários em JavaScript  
  - [X] 7.4 - Projeto - JavaScript Testes Unitários
 
-#### Bloco 8: Higher Order Functions do JavaScript ES6
+#### Bloco 8: [Higher Order Functions do JavaScript ES6](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/01-fundamentos/bloco-08_high-order-functions-do-javascript-es6)
  - [X] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions  
  - [X] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort  
  - [X] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter  
@@ -67,12 +67,12 @@ Este repositório contém todas as atividades realizadas por __[mim](https://www
  - [X] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais  
  - [X] 8.6 - Projeto - Zoo functions
 
-#### Bloco 9: JavaScript Assíncrono e Promises
+#### Bloco 9: [JavaScript Assíncrono e Promises](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/01-fundamentos/bloco-09_javascript-ass%C3%ADncrono-e-promises)
  - [X] 9.1 - JavaScript Assíncrono e Callbacks  
  - [X] 9.2 - JavaScript Promises  
  - [X] 9.3 - Projeto - Carrinho de Compras
 
-#### Bloco 10 A: Testes automatizados com Jest
+#### Bloco 10 A: [Testes automatizados com Jest](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/01-fundamentos/bloco-10-a_testes-automatizados-com-jest)
  - [X] 10-A.1 - Primeiros passos no Jest  
  - [X] 10-A.2 - Jest - Testes Assíncronos  
  - [X] 10-A.3 - Jest - Simulando comportamentos  

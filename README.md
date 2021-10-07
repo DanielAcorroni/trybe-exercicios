@@ -83,7 +83,7 @@ Este repositório contém todas as atividades realizadas por __[mim](https://www
  - [X] 10-B.1 - Introdução - Front-end  
  - [X] 10-B.1 - Introdução - React  
  - [X] 10-B.1 - 'Hello, world!' no React!  
- - [ ] 10-B.2 - Componentes React  
+ - [X] 10-B.2 - Componentes React  
  - [ ] 10-B.3 - Projeto - Movie Cards Library
 
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React

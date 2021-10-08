@@ -79,15 +79,15 @@ Este repositório contém todas as atividades realizadas por __[mim](https://www
  - [X] 10-A.4 - Projeto - Jest Assíncrono e Mocking
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
-#### Bloco 10 B: Introdução à React
+#### Bloco 10 B: [Introdução à React](https://github.com/DanielAcorroni/trybe-exercicios/tree/master/02-front_end/bloco-10-b_introducao-a-react)
  - [X] 10-B.1 - Introdução - Front-end  
  - [X] 10-B.1 - Introdução - React  
  - [X] 10-B.1 - 'Hello, world!' no React!  
  - [X] 10-B.2 - Componentes React  
- - [ ] 10-B.3 - Projeto - Movie Cards Library
+ - [X] 10-B.3 - Projeto - Movie Cards Library
 
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
- - [ ] 11.1 - Componentes com estado e eventos  
+ - [X] 11.1 - Componentes com estado e eventos  
  - [ ] 11.2 - Formulários no React  
  - [ ] 11.3 - Projeto - Movie Cards Library Stateful
 
